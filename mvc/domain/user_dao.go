@@ -28,6 +28,4 @@ func GetUser(userID int64) (*User, error) {
 	// 	//return User{}, errors.New(fmt.Sprintf("user %v was not found", userID))
 	// 	return nil, errors.New(fmt.Sprintf("user %v was not found", userID))
 	// }
-
-	return user, nil
 }
